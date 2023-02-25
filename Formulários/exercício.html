@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Encontre</title>
+</head>
+<body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password"> - Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+        </div>
+
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+
+            <label for="file"> - Select a file:</label>
+            <input type="file" id="file" name="file">
+        </div>
+
+        <br>
+        <div>
+            <label for="nationality">Nationality</label>
+            <select name="nationality" id="nationality">
+                <option value="russian">Russian</option>
+                <option value="american">American</option>
+                <option value="brasilian">Brasilian</option>
+                <option value="chinese">Chinese</option>
+            </select>
+            <span> -  Gender: </span>
+            
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female"> Female </label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male"> Male </label>
+        </div>
+
+        <div class="qualities">
+            <p>What are your main qualities?</p>
+   
+            <label for="valor2"> Intelligence</label>
+            <input type="checkbox" id="valor2" name="valor2" value="Inteligência">
+
+            <label for="valor3"><b>|</b> Resilience </label>    
+            <input type="checkbox" id="valor3" name="valor3" value="Resiliência">
+        
+            <label for="valor4"><b>|</b>  Physical </label>
+            <input type="checkbox" id="valor4" name="valor4" value="Preparo físico">
+        
+            <label for="valor5"><b>|</b>  Education </label>
+            <input type="checkbox" id="valor5" name="valor4" value="Educação">
+            <b>|</b><br><br>
+        </div>
+        
+        <div>
+            <textarea name="description" id="description"> Porque você gostaria de ser um astronauta?</textarea><br>
+        </div>
+        
+        <div>
+            <input type="submit" value="Criar">
+        </div>
+    </form>
+ </body>
+</html>

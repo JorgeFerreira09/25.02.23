@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Input Restrictions</title>
+    <style>
+        .range {
+            font-size: 120%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h2 style="font-size: 165%; text-decoration: underline;">Input Restrictions</h2>
+        <h3 style="font-weight: bold; font-size: 135%;">Range Field</h3>        
+        <label for="vol"> Volume (between 0 and 100): </label><br>
+        <input type="range" id="vol" name="vol" min="0" max="100">
+
+        <input type="submit" value="Submit">
+    </form>
+    
+    <br>
+    <hr> 
+    
+    <div class="range">
+
+        <h3 style="font-weight: bold; font-size: 135%;"><mark>&lt;input type="range"&gt;</mark>
+        </h3>
+        <p>
+            Define um controle para inserir um número cujo valor exato não é importante (como um controle deslizante). <br><br>
+        
+            O intervalo padrão é de 0 a 100. <br><br>
+            
+            No entanto, você pode definir restrições sobre quais números são aceitos com os atributos abaixo. <br><br>
+
+            
+            <b>max</b> - especifica o valor máximo permitido <br>
+            <b>min</b> - especifica o valor mínimo permitido <br>
+            <b>passo</b> - especifica os intervalos de número legal <br>
+            <b>valor</b> - Especifica o valor padrão <br>
+        
+            <b>Dica:</b> Sempre adicione a <label>tag para melhores práticas de acessibilidade!
+        </p>
+    </div>
+
+</body>
+</html>
